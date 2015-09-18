@@ -1,0 +1,263 @@
+
+html,body{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+/*section{
+    display: block;
+}*/
+footer{
+    color: #bdbdbd;
+    background-color: #514b4b;
+    width: 100% ;
+}
+.container{
+   /*max-width: 1990px;*/
+}
+.navz{
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+}
+.navz ul{
+    list-style: none;
+    margin: 20px;
+    padding:5px;
+
+}
+.navz ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin:15px;
+    padding: 10px;
+
+}
+.navz ul li a{
+    font-family: nixie-one;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+    transition: all .2s ease;
+
+
+}
+
+.navz ul li a:hover{
+    font-family: nixie-one;
+    border-bottom: 1px solid white;
+    color: #db8f04;
+
+
+}
+iframe{
+    width: 100%;
+}
+/*registar css*/
+.heads{position: relative; display: block;}
+.rnav{position:relative; padding-left: 190px;}
+.rnav ul{ list-style: none; margin: 20px; padding: 5px;}
+.rnav ul li{list-style: none;display: inline-block; margin: 20px; padding: 15px;margin-left: 2px;margin-bottom: 2px;margin-top: 1px;}
+.rnav ul li a{text-decoration: none; font-family: nixie-one; font-size: 1.5em;color: black;transition: all .2s ease;}
+.rnav ul li a:hover{border-bottom: 1px solid black; color:#db8f04;}
+.rnav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+/**********************************************************************/
+/*****************8FORM STYLES***************************************/
+.form-control{
+width: 300px;
+}
+.form-group{
+        display: inline-block;
+        width: 400px;
+    padding: 10px;
+}
+.form{
+display: inline-block;
+}
+.butt{
+padding: 10px;
+}
+.btn-primary{
+width: 100px;
+background-color: royalblue;
+margin: 30px;
+
+}
+.red{
+    background-color: rgb(205,1,2);
+}
+.form{
+    padding: 70px;
+}
+/***********************************************************************/
+.vida{
+    position: relative;
+
+}
+.vida video{
+
+   margin: 0;
+    padding: 0;
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -moz-filter: brightness(40%);
+    -o-filter: brightness(40%);
+    -ms-filter: brightness(40%);
+    overflow: hidden;
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.content .vtxt h3,p{
+    color: #fff;
+    padding-right:100px ;
+    text-align: center;
+    font-size: 3em;
+    font-family: nixie-one;
+
+}
+
+.content .rbtn{
+    position: absolute;
+    right: 46%;
+    padding: 0;
+    margin: 0;
+}
+.content .btn-custom{
+
+    width: 200px;
+    border-radius: 0px;
+}
+/*
+.content .btn-custom:hover{
+    background-color: transparent;
+}
+*/
+/*******************************************************************/
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    font-family: "nixie-one", ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+.twtbtn{
+    margin-top:10px;
+    margin-left: 50% ;
+    margin-right: 41.8%;
+    padding: 0;
+    border: 1px solid #0097ff;
+    background-color: #83c6f4;
+
+}
+.twtbtn a{
+    text-decoration: none;
+    transition: .2s ease;
+    color: azure;
+
+}
+.twtbtn:hover{
+    background-color: transparent;
+    color:#83c6f4;
+
+}
+
+/*******************************************************************/
+.featured span{
+    color: #db8f04;
+}
+.featured h2{
+    font-family: nixie-one;
+    font-weight: 400;
+    color:#83c6f4
+}
+.firebase-container{
+    margin: 10px;
+}
+.fcontent h3{
+    font-family: nixie-one;
+    word-spacing: 1px;
+}
+.fimg{
+    display: block;
+    line-height: 30px;
+}
+.fimg p{
+
+    text-align: center;
+    color: gray;
+    padding-left: 1px;
+    width: 300px;
+    border-bottom: 2px solid gray;
+    font-size: 16px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.socials{
+    display: block;
+}
+.socials ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+
+}
+.socials ul li a{
+    text-decoration: none;
+    color: #83c6f4;
+    transition: all .2s ease;
+}
+.socials ul li a:hover{
+    color: #db8f04;
+
+}
+.insocial{
+    display: inline-block;
+    margin: 5px;
+}
+.insocial.fb-share-button{
+    margin-bottom: 5px;
+}
+.lftside{
+    width: 50%;
+    padding-right: 50px;
+    display: inline-block;
+}
+.rghtside{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+hr {
+    border: 1px solid;
+}
+
+h3 {
+    font-family: nixie-one;
+}
